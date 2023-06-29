@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Student Record</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="js/registration.js"></script> -->
+    
+
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td>
+                <form onsubmit="event.preventDefault();onFormsubmit();" autocomplete="on">
+                    <div>
+                        <label>Fullname :</label>
+                        <input type="text" name="Full Name :" id="Fullname">
+                    </div>
+                    <div>
+                        <label>SID :</label>
+                        <input type="text" name="SID :" id="SID">
+                    </div>
+                    <div>
+                        <label>Student center :</label>
+                        <input type="text" name="Student center :" id="StudentCenter">
+                    </div>
+                    <div>
+                        <label>Semester :</label>
+                        <input type="text" name="Semester :" id="Semester">
+                    </div>
+                    <div>
+                        <label>CGPA :</label>
+                        <input type="text" name="CGPA :" id="CGPA">
+                    </div>
+
+                    <div class="form-action-buttons">
+                        <input type="submit" name="Submit" id="Submit" value="Submit">
+                    </div>
+
+            <td>
+                <table class="list" id="studentlist">
+                    <thead>
+                        <tr>
+                            <th>Full name</th>
+                            <th>SID</th>
+                            <th>Student center</th>
+                            <th>Semester</th>
+                            <th>CGPA</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                    </tbody>
+                </table>
+            </td>
+            </div>
+            </form>
+            </td>
+        </tr>
+    </table>
+
+    <div id="demo">
+
+    </div>
+</body>
+<script src="script.js"> </script>
+
+</html>
