@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <title>COSMETIC STORE</title>
+</head>
+
+<body>
+
+
+
+    <section class="nav">
+        <a href="" class=""><img src="./images/l1.jpg" alt="logo"></a>
+        <ul class="navlist">
+            <li><a href="#">Home</a></li>
+            <li><a href="http://localhost/cosmetic/login.php">Account</a></li>
+            <li><a href="http://localhost/cosmetic/showproduct.html">Products</a></li>
+            <li><a href="#movecantact">Cantact</a></li>
+            <li><a href="#movedown">About</a></li>
+            
+        </ul>
+        <div class="nav-icons">
+            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        </div>
+
+
+
+
+    </section>
+    <!-- home section-->
+
+    <section class="home">
+
+        <div class="slider">
+
+            <div class="slides">
+                <input type="radio" id="radio1" name="radios1">
+                <input type="radio" id="radio2" name="radios2">
+                <input type="radio" id="radio3" name="radios3">
+                <div class="slide first">
+                    <div class="tex">
+                        <h1>cosmetic store</h1>
+                    </div>
+                    <img src="./images/bg1.png">
+
+                </div>
+                <div class="slide">
+
+
+                    <img src="./images/bbg.png">
+
+                </div>
+                <div class="slide">
+
+
+                    <img src="./images/bg2.png.jpg">
+                </div>
+
+
+
+                <div class="auto">
+                    <div class="auto1"></div>
+                    <div class="auto2"></div>
+                    <div class="auto3"></div>
+                </div>
+
+            </div>
+
+            <div class="manual">
+                <label for="radio1" class="manuals"></label>
+                <label for="radio2" class="manuals"></label>
+                <label for="radio3" class="manuals"></label>
+            </div>
+
+
+
+        </div>
+
+
+
+
+    </section>
+
+
+
+    <script>
+        var counter = 1;
+        setInterval(function () {
+            document.getElementById('radio' + counter).checked = true;
+            counter = counter + 1;
+            if (counter > 3) {
+                counter = 1;
+            }
+
+
+        }, 3000);
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+<section class="empty">
+
+</section>
+
+<section class="product">
+
+    <div class="container">
+        <div class="card">
+          <div class="circle">
+            <img src="./images/brosh.jpg">
+          </div>
+          <div class="content">
+
+            <p> <b>Brush </b> </p>
+           
+            <p><b>1500</b></p>
+            <a href="http://localhost/cosmetic/login.php"><b>Buy Now</b></a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="circle">
+            <img src="./images/mascara.jpg">
+          </div>
+          <div class="content">
+            <p> <b>Mascara</b> </p>
+           
+            <p><b>3500</b></p>
+            <a href="http://localhost/cosmetic/login.php"><b>Buy Now</b></a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="circle">
+           <img src="./images/lipstick1.png">
+          </div>
+          <div class="content">
+            <p> <b>lipstick </b> </p>
+           
+            <p><b>1700</b></p>
+            <a href="http://localhost/cosmetic/login.php"><b>Buy Now</b></a>
+          </div>
+        </div>
+        <div class="card">
+            <div class="circle">
+             <img src="./images/lipg.png">
+            </div>
+            <div class="content">
+  
+                <p> <b>lipgloss </b> </p>
+           
+                <p><b>4000</b></p>
+                <a href="http://localhost/cosmetic/login.php"><b>Buy Now</b></a>
+            </div>
+          </div>
+      
+        </section>
+        <section class="cantact" style="background-color:  rgba(176, 128, 199, 0.483); height: 900px ;
+        width:1350px ;">
+        <div id="movecantact">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2>Cantact </h2>
+            <br>
+            <h4 style="background-color: #cab5c6;">Cantact details</h4>
+            <form style="background-color: #581149;   place-content: center; font-size: large;font-weight: 700;">
+                <input type="text" name="n" value="cosmetric" style=" font-size: large;">
+                <br>  <br>
+                <input type="text" name="nu" value="07734567" style=" font-size: large;">
+                <br>  <br>
+                <input type="text" name="email"  value="amirtha@gmial.com" style=" font-size: large;">
+                <br>  <br>
+                <input type="text" name="ista"  value="instagram/amri" style=" font-size: large;">
+                <br>  <br>
+                <input type="text" name="face"  value="facebook/amri" style=" font-size: large;">
+                <br>  <br>
+                <br>  <br>
+                <br>  <br>
+            </form>
+        </div>
+        </section>
+
+
+
+
+
+
+
+
+        <section class="space" style="background-color: rgba(176, 128, 199, 0.483); height: 900px;
+        width:1350px ;">
+        <div id="movedown">
+            <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>  <br>
+            <h1 style="color: rgb(117, 79, 112);">About us</h1>
+            <p style="font-size: large ;color:white;background-color:  #581149;">Cosmetics are constituted mixtures of chemical compounds derived from either natural sources,<br> 
+                or synthetically created ones. Cosmetics have various purposes. <br>
+                Those designed for personal care and skin care can be used to cleanse or protect the body or skin</p>
+
+
+                <P style="background-color:  #581149;font-size: large ;color:white">
+                     The Personal Care Association :: Cosmetic ...<br>
+                    Cosmetics and personal care products are applied to the human body for the purposes of cleaning, beautifying, <br>
+                    promoting attractiveness or changing its appearance.</P>
+        </div>
+        </section>
+        
+</body>
+
+</html>
